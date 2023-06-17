@@ -37,7 +37,7 @@ submit.addEventListener("click", (e)=>{
 
 })
 
-getWeather("Amritsar")
+getWeather("Delhi")
 
 
 fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Washington,DC,USA', options)
