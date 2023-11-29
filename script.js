@@ -146,7 +146,7 @@ fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=London,UK', 
     })
     .catch(err => console.error(err));              
 
-fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Cairo,Egypt', options)
+fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Moscow,Russia', options)
 	.then(response => response.json())
     .then((response) => {
         console.log(response)
